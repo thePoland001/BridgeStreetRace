@@ -24,7 +24,7 @@ def analyze_age_finishing_time_correlation(data):
             else:
                 return float(time_str)
         except ValueError:
-            print(f"Warning: Could not convert '{time_str}' to seconds")
+            print(f"coudl not convert '{time_str}' to seconds")
             return None
     if 'fixed_half_marathon_time' in data.columns:
         time_column = 'fixed_half_marathon_time'
