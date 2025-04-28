@@ -3,10 +3,10 @@ def fix_half_marathon_times(data):
     Fix the half marathon times by adding the hour component based on the runner's place.
 
     Rules:
-    - Places 1-156: Add 1 hour (prefix with "1:")
-    - Places 157-443: Add 2 hours (prefix with "2:")
-    - Places 444-488: Add 3 hours (prefix with "3:")
-    - Places 489-493: Add 4 hours (prefix with "4:")
+    - Places 1-156: Add 1 hour 
+    - Places 157-443: Add 2 hours 
+    - Places 444-488: Add 3 hours 
+    - Places 489-493: Add 4 hours
 
     Args:
         data: DataFrame containing the race data
