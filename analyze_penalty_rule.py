@@ -1,7 +1,6 @@
 def analyze_penalty_rule(data):
     """
-    Analyze if there's evidence for the rule that for every second you run too fast in the first half,
-    it costs you two seconds in the second half.
+    Analyze if there's evidence for that rule he mentioned
 
     Args:
         data: DataFrame containing the race data
