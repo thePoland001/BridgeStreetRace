@@ -18,12 +18,8 @@ def main():
     print("2. Half marathon times fixed based on place ranges.")
     if drop_lap:
         print(f"3. Dr. H. Chen was dropped by the 3-hour pacer at lap {drop_lap}.")
-    else:
-        print("3. Could not determine when Dr. H. Chen was dropped by the pacer.")
     if dizzy_lap:
         print(f"4. Dr. C. Chen likely got dizzy around lap {dizzy_lap}.")
-    else:
-        print("4. Could not determine when Dr. C. Chen got dizzy.")
     print(f"5. The correlation between age and finishing time is {correlation_results['correlation']:.4f}, "
           f"indicating a {correlation_results['interpretation']} {correlation_results['direction']} correlation.")
     print(f"6. Approximately {skipped_loop_results['total_skipped_estimate']} runners "
@@ -40,9 +36,7 @@ def main():
         print(f"10. Fatigue sets in around lap {fatigue_results['fatigue_lap']}. "
               "This was determined by analyzing the average split times across all runners to identify a significant slowdown, "
               "and examining individual runners' splits to find where their pace increased by a notable margi")
-    else:
-        print("10. No clear fatigue onset detected.")
-    print("\nSaving corrected data to 'project_data_fixed.csv'...")
+  
     data.to_csv('project_data_fixed.csv', index=False)
     print("Analysis complete!")
 
