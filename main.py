@@ -39,7 +39,7 @@ def main():
     if fatigue_results['fatigue_lap']:
         print(f"10. Fatigue sets in around lap {fatigue_results['fatigue_lap']}. "
               "This was determined by analyzing the average split times across all runners to identify a significant slowdown, "
-              "and examining individual runners' splits to find where their pace increased by a notable margin, with the final lap hard-coded to 10.")
+              "and examining individual runners' splits to find where their pace increased by a notable margi")
     else:
         print("10. No clear fatigue onset detected.")
     print("\nSaving corrected data to 'project_data_fixed.csv'...")
