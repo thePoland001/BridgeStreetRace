@@ -1,6 +1,6 @@
 def analyze_dr_c_chen_dizzy(data):
     """
-    Determine when Dr. C. Chen (place 268) got dizzy during the race.
+    Determine when Dr. C. Chen got dizzy during the race.
 
     Args:
         data: DataFrame containing the race data
