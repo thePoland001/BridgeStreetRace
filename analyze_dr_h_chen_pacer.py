@@ -1,6 +1,6 @@
 def analyze_dr_h_chen_pacer(data):
     """
-    Analyze when Dr. H. Chen was dropped by the 3-hour pacer by comparing pace per mile, excluding laps 2 and 20.
+    Analyze when Dr. H. Chen was dropped by the 3-hour pacer excluding laps 2 and 20.
 
     Args:
         data: DataFrame containing the race data
