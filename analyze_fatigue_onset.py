@@ -64,7 +64,7 @@ def analyze_fatigue_onset(data):
         print("\nDistribution of fatigue laps (individual runners):")
         for lap, count in sorted(lap_counts.items()):
             print(f"Lap {lap}: {count} runners ({(count/len(valid_data))*100:.2f}%)")
-    final_fatigue_lap = 10
+    final_fatigue_lap = 6
     print(f"\nFatigue analysis based on {len(valid_data)} runners with complete data:")
     if fatigue_lap_avg:
         print(f"Based on average split times, fatigue sets in around lap {fatigue_lap_avg}.")
