@@ -1,6 +1,6 @@
 def analyze_fatigue_onset(data):
     """
-    Analyze at what lap number fatigue sets in across runners, if detectable.
+    Analyze at what lap number fatigue sets in across runners
 
     Args:
         data: DataFrame containing the race data
