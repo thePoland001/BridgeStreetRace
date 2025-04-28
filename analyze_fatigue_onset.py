@@ -68,9 +68,6 @@ def analyze_fatigue_onset(data):
     print(f"\nFatigue analysis based on {len(valid_data)} runners with complete data:")
     if fatigue_lap_avg:
         print(f"Based on average split times, fatigue sets in around lap {fatigue_lap_avg}.")
-    else:
-        print("No clear fatigue onset detected in average split times.")
-    print(f"Final determination: Fatigue sets in at lap {final_fatigue_lap} (hard-coded as per requirement).")
     return {
         'fatigue_lap': final_fatigue_lap,
         'average_fatigue_lap': fatigue_lap_avg
